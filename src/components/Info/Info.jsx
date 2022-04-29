@@ -21,9 +21,7 @@ export function Info() {
         </InfoIconAndText>
         <InfoIconAndText>
           <BsCalendar size="30px" />
-          <p>
-            15 de junho <br /> (Domingo)
-          </p>
+          <p>15 de junho</p>
         </InfoIconAndText>
       </InfoDiv>
       <FlexColumn>
@@ -46,5 +44,5 @@ const InfoIconAndText = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 `;
