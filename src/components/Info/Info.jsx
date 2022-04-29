@@ -17,11 +17,11 @@ export function Info() {
         </InfoIconAndText>
         <InfoIconAndText>
           <BiTime size="30px" />
-          <p>08HR as 12HR </p>
+          <p>A partir de 8h </p>
         </InfoIconAndText>
         <InfoIconAndText>
           <BsCalendar size="30px" />
-          <p>15 de junho</p>
+          <p>15 de maio</p>
         </InfoIconAndText>
       </InfoDiv>
       <FlexColumn>

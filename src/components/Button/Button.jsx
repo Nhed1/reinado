@@ -5,7 +5,8 @@ export function Button() {
 }
 
 const ButtonStyle = styled.button`
-  margin-top: 20px;
+  cursor: pointer;
+  margin-top: 50px;
   border: none;
   border-radius: 10px;
   padding: 20px;
