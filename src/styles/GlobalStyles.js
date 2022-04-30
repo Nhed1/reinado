@@ -7,4 +7,5 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Ruda', sans-serif;
     box-sizing: border-box;
     }
+    
 `;

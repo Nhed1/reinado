@@ -2,13 +2,20 @@ import styled from "styled-components";
 import { Button } from "../Button/Button";
 import logo2 from "../../assets/logo2.png";
 
-export function Nav() {
+export function Nav({ showLimitedSpace }) {
   return (
     <NavDiv>
-      <img src={logo2} alt="logo" />
-      <ButtonLink>
-        <a href="#">Quero Participar</a>
-      </ButtonLink>
+      <div>
+        <img src={logo2} alt="logo" />
+        <ButtonLink>
+          <a href="#">Quero Participar</a>
+        </ButtonLink>
+      </div>
+      {showLimitedSpace && (
+        <LimitedSpace>
+          <p>Vagas extremamente limitadas</p>
+        </LimitedSpace>
+      )}
     </NavDiv>
   );
 }
@@ -16,9 +23,11 @@ export function Nav() {
 const NavDiv = styled.div`
   position: sticky;
   top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
   width: 100%;
   height: 60px;
@@ -49,5 +58,17 @@ const ButtonLink = styled.div`
     color: #e1e1e6;
     font-size: 14px;
     font-weight: 600;
+  }
+`;
+
+const LimitedSpace = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ff5d08;
+  height: 35px;
+  p {
+    font-weight: 800;
   }
 `;

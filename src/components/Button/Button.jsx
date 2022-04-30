@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export function Button() {
+export function Button({ text }) {
   return (
     <ButtonStyle>
-      <a href="#">Quero Participar</a>
+      <a href="#">{(text && text) || "Quero Participar"}</a>
     </ButtonStyle>
   );
 }
@@ -14,8 +14,8 @@ const ButtonStyle = styled.div`
 
   font-style: none;
   border-radius: 10px;
-  width: 140px;
-  height: 40px;
+  width: 180px;
+  height: 50px;
 
   background-image: linear-gradient(to right, #daa520, #ff5d08);
 
@@ -26,7 +26,7 @@ const ButtonStyle = styled.div`
   a {
     text-decoration: none;
     color: #e1e1e6;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 800;
   }
 `;

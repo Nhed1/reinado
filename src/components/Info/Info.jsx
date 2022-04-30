@@ -21,7 +21,7 @@ export function Info() {
         </InfoIconAndText>
         <InfoIconAndText>
           <BsCalendar size="30px" />
-          <p>15 de maio</p>
+          <p>22 de maio</p>
         </InfoIconAndText>
       </InfoDiv>
       <FlexColumn>

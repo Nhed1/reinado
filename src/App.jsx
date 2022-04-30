@@ -5,20 +5,24 @@ import { Wrapper } from "./components/Wrapper";
 import { Header } from "./components/Header/Header";
 import { Info } from "./components/Info/Info";
 import { Main } from "./components/Main/Main";
-import { useWindowPosition } from "./hooks/useWindowPosition";
 import { Nav } from "./components/Nav/Nav";
+import { Prices } from "./components/Prices/Prices";
+
+import { useWindowPosition } from "./hooks/useWindowPosition";
 
 function App() {
   let value = useWindowPosition();
   const showUp = value > 800;
+  const showLimitedSpace = value > 2700;
   return (
     <Wrapper>
       <GlobalStyle />
-      {showUp && <Nav />}
+      {showUp && <Nav showLimitedSpace={showLimitedSpace} />}
       <Padding>
         <Header />
         <Info />
         <Main />
+        <Prices />
       </Padding>
     </Wrapper>
   );
