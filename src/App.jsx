@@ -16,7 +16,7 @@ import { useWindowPosition } from "./hooks/useWindowPosition";
 function App() {
   let value = useWindowPosition();
   const showUp = value > 800;
-  const showLimitedSpace = value > 2700;
+  const showLimitedSpace = value > 3450;
   return (
     <Wrapper>
       <GlobalStyle />
