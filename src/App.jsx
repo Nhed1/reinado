@@ -11,6 +11,7 @@ import { WhatsappButton } from "./components/WhatsappButton";
 import { Adress } from "./components/Adress/Adress";
 import { ProfileCard } from "./components/ProfileCard/ProfileCard";
 import { FinalSentence } from "./components/FinalSentence/FinalSentence";
+import { Footer } from "./components/Footer";
 
 import { useWindowPosition } from "./hooks/useWindowPosition";
 
@@ -31,6 +32,7 @@ function App() {
         <ProfileCard />
         <FinalSentence />
       </Padding>
+      <Footer />
       <WhatsappButton />
     </Wrapper>
   );
