@@ -2,7 +2,6 @@ import { HeaderDiv } from "./HeaderDiv";
 import { Name, Details, Presentation } from "./HeaderDiv";
 import { FlexColumn } from "../FlexColumn";
 import logo2 from "../../assets/logo2.png";
-import { Span } from "../Span";
 import styled from "styled-components";
 
 export function Header() {
