@@ -1,19 +1,10 @@
 import styled from "styled-components";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 export function Button({ text }) {
   return (
     <ButtonStyle>
-      <Link
-        activeClass="active"
-        to="prices"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={500}
-      >
-        {(text && text) || "Quero Participar"}
-      </Link>
+      <a href="prices">{(text && text) || "Quero Participar"}</a>
     </ButtonStyle>
   );
 }
