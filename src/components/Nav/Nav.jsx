@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import logo2 from "../../assets/logo2.png";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 export function Nav({ showLimitedSpace }) {
   return (
@@ -8,16 +8,7 @@ export function Nav({ showLimitedSpace }) {
       <div>
         <img src={logo2} alt="logo" />
         <ButtonLink>
-          <Link
-            to="prices"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Quero Participar
-          </Link>
+          <a href="prices">Quero Participar</a>
         </ButtonLink>
       </div>
       {showLimitedSpace && (
