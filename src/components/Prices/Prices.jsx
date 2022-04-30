@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Button } from "../Button/Button";
 import { Span } from "../Span";
+import { ButtonForm } from "../ButtonForm/ButtonForm";
 
 export function Prices() {
   return (
@@ -24,7 +24,8 @@ export function Prices() {
         </strong>
         <span>DUPLA</span>
       </PriceNumber>
-      <Button text={`Tô Dentro!  🚀`} />
+      {/* <Button text={`Tô Dentro!  `} /> */}
+      <ButtonForm />
     </PricesDiv>
   );
 }
