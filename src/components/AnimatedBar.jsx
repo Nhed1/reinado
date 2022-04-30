@@ -5,43 +5,55 @@ import { BsCheck2Circle } from "react-icons/bs";
 export function AnimatedBar() {
   return (
     <Bar>
-      <div>
-        <BsCheck2Circle color="#ff5d02" />
-        <p>Atraia mais clientes</p>
-        <BsCheck2Circle color="#ff5d02" />
-        <p>Atraia mais clientes</p>
-      </div>
-      <div>
-        <BsCheck2Circle color="#ff5d02" />
-        <p>Atraia mais clientes</p>
-        <BsCheck2Circle color="#ff5d02" />
-        <p>Atraia mais clientes</p>
-      </div>
+      <SlideTrack>
+        <Slide>
+          <BsCheck2Circle size="22px" color="#ff5d02" />
+          <p>Atraia mais clientes</p>
+        </Slide>
+        <Slide>
+          <BsCheck2Circle size="22px" color="#ff5d02" />
+          <p>Atraia mais clientes</p>
+        </Slide>
+        <Slide>
+          <BsCheck2Circle size="22px" color="#ff5d02" />
+          <p>Atraia mais clientes</p>
+        </Slide>
+        <Slide>
+          <BsCheck2Circle size="22px" color="#ff5d02" />
+          <p>Atraia mais clientes</p>
+        </Slide>
+      </SlideTrack>
     </Bar>
   );
 }
 
 const Bar = styled.div`
   display: flex;
-  flex-direction: column;
   color: white;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
-  /* animation: mymove 5s infinite; */
   position: relative;
-  div {
-    display: flex;
-    align-items: center;
-    p {
-      margin-left: 10px;
-    }
-  }
-  /* @keyframes mymove {
+  margin: 20px 0;
+  @keyframes scroll {
     0% {
-      transform: translateX(50%);
+      transform: translateX(200px);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(calc(-100px * 4));
     }
-  } */
+  }
+`;
+
+const SlideTrack = styled.div`
+  display: flex;
+  width: calc(200px * 4);
+  animation: scroll 10s linear infinite;
+`;
+
+const Slide = styled.div`
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
 `;

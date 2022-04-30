@@ -4,7 +4,7 @@ import styled from "styled-components";
 export function Button({ text }) {
   return (
     <ButtonStyle>
-      <a href="prices">{(text && text) || "Quero Participar"}</a>
+      <a>{(text && text) || "Quero Participar"}</a>
     </ButtonStyle>
   );
 }

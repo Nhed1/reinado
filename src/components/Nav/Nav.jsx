@@ -8,7 +8,7 @@ export function Nav({ showLimitedSpace }) {
       <div>
         <img src={logo2} alt="logo" />
         <ButtonLink>
-          <a href="prices">Quero Participar</a>
+          <a>Quero Participar</a>
         </ButtonLink>
       </div>
       {showLimitedSpace && (
