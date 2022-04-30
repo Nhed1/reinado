@@ -13,7 +13,7 @@ const ButtonStyle = styled.button`
   width: 60%;
   height: 70px;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 600;
   color: #e1e1e6;
   background-image: linear-gradient(to right, #daa520, #ff5d08);
 `;

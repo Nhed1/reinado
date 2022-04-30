@@ -9,7 +9,7 @@ import { FlexColumn } from "../FlexColumn";
 
 export function Info() {
   return (
-    <IconContext.Provider value={{ color: "#daa520" }}>
+    <IconContext.Provider value={{ color: "#ff5d02" }}>
       <InfoDiv>
         <InfoIconAndText>
           <GoLocation size="30px" />

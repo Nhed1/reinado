@@ -30,7 +30,6 @@ export const Presentation = styled.div`
     /* margin-top: 10px; */
     font-size: 0.7rem;
     font-weight: 200;
-    color: #daa520;
   }
 `;
 
