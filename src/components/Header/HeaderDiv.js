@@ -16,7 +16,7 @@ export const Name = styled.h1`
 `;
 
 export const Presentation = styled.div`
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +37,7 @@ export const Presentation = styled.div`
 export const Details = styled.p`
   color: #e1e1e6;
   text-align: center;
-  font-size: 1.72rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   margin-top: 10px;
 `;

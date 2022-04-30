@@ -53,7 +53,7 @@ const MainStyles = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
   h1 {
     font-weight: 600;
     font-size: 1.7rem;

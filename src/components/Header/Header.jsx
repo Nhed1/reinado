@@ -18,8 +18,8 @@ export function Header() {
         <img src={logo2} alt="Logo" />
 
         <Details>
-          O <Span> mapa completo</Span> para você se destacar no instagram e
-          <Span> aumentar</Span> os resultados do seu negócio
+          O <Span> mapa completo</Span> para você se destacar no Instagram e
+          aumentar os <Span> resultados</Span> do seu negócio
         </Details>
       </FlexColumn>
     </HeaderDiv>

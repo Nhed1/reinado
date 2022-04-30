@@ -32,7 +32,7 @@ export function Info() {
 }
 
 const InfoDiv = styled.div`
-  margin: 30px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: space-between;
   color: #e1e1e6;

@@ -6,13 +6,14 @@ export function Button() {
 
 const ButtonStyle = styled.button`
   cursor: pointer;
-  margin-top: 50px;
   border: none;
+  margin-top: 20px;
   border-radius: 10px;
   padding: 20px;
-  width: 80%;
-  font-size: 1.5rem;
-  font-weight: bold;
+  width: 60%;
+  height: 70px;
+  font-size: 1.4rem;
+  font-weight: 400;
   color: #e1e1e6;
-  background-image: linear-gradient(to right, #fc5c7d, #daa520);
+  background-image: linear-gradient(to right, #daa520, #ff5d08);
 `;
