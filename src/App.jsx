@@ -8,6 +8,7 @@ import { Main } from "./components/Main/Main";
 import { Nav } from "./components/Nav/Nav";
 import { Prices } from "./components/Prices/Prices";
 import { WhatsappButton } from "./components/WhatsappButton";
+import { Adress } from "./components/Adress/Adress";
 
 import { useWindowPosition } from "./hooks/useWindowPosition";
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Header />
         <Info />
         <Main />
+        <Adress />
         <Prices />
       </Padding>
       <WhatsappButton />
@@ -31,6 +33,9 @@ function App() {
 
 const Padding = styled.div`
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export default App;
