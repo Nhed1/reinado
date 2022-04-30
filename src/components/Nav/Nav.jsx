@@ -8,7 +8,9 @@ export function Nav({ showLimitedSpace }) {
       <div>
         <img src={logo2} alt="logo" />
         <ButtonLink>
-          <a>Quero Participar</a>
+          <a href="https://my.forms.app/form/626d52cdb838185b9353b194">
+            Quero Participar
+          </a>
         </ButtonLink>
       </div>
       {showLimitedSpace && (
