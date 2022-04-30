@@ -1,10 +1,20 @@
 import styled from "styled-components";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
+// const ScrollLink = Scroll.ScrollLink;
 
 export function Button({ text }) {
   return (
     <ButtonStyle>
-      <a>{(text && text) || "Quero Participar"}</a>
+      <Link
+        className="nav-link"
+        to="prices"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        Quero Participar
+      </Link>
     </ButtonStyle>
   );
 }
