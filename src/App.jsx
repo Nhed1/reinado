@@ -10,6 +10,8 @@ import { Prices } from "./components/Prices/Prices";
 import { WhatsappButton } from "./components/WhatsappButton";
 import { Adress } from "./components/Adress/Adress";
 import { ProfileCard } from "./components/ProfileCard/ProfileCard";
+import { FinalSentence } from "./components/FinalSentence/FinalSentence";
+
 import { useWindowPosition } from "./hooks/useWindowPosition";
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
         <Adress />
         <Prices />
         <ProfileCard />
+        <FinalSentence />
       </Padding>
       <WhatsappButton />
     </Wrapper>
