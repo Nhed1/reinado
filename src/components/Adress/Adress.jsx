@@ -35,7 +35,7 @@ const Title = styled.div`
 
 const CardAdress = styled.div`
   margin: 10px 0;
-
+  background-color: rgb(0, 0, 0);
   color: #e1e1e6;
   border: 1px solid #ff5d02;
   padding: 20px 5px;

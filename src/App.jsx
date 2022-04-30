@@ -9,13 +9,13 @@ import { Nav } from "./components/Nav/Nav";
 import { Prices } from "./components/Prices/Prices";
 import { WhatsappButton } from "./components/WhatsappButton";
 import { Adress } from "./components/Adress/Adress";
-
+import { ProfileCard } from "./components/ProfileCard/ProfileCard";
 import { useWindowPosition } from "./hooks/useWindowPosition";
 
 function App() {
   let value = useWindowPosition();
   const showUp = value > 800;
-  const showLimitedSpace = value > 3450;
+  const showLimitedSpace = value > 3050;
   return (
     <Wrapper>
       <GlobalStyle />
@@ -26,6 +26,7 @@ function App() {
         <Main />
         <Adress />
         <Prices />
+        <ProfileCard />
       </Padding>
       <WhatsappButton />
     </Wrapper>
@@ -36,6 +37,7 @@ const Padding = styled.div`
   padding: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 `;
 

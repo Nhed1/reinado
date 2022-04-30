@@ -11,37 +11,51 @@ import image7 from "../../assets/7.png";
 export function Main() {
   return (
     <MainStyles>
-      <h1>O QUE VOCÊ IRÁ APRENDER NO TREINAMENTO?</h1>
+      <h1>O que você irá aprender no treinamento?</h1>
       <p>
         As <Span> 7 etapas </Span>para dominar o digital e construir um
         <Span> Instagram</Span> poderoso
       </p>
       <CardStyles>
-        <h2>1. Primeira Arte</h2>
+        <h2>
+          <Span>1.</Span> Primeira Arte
+        </h2>
         <img src={image1} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>2. Segunda Arte</h2>
+        <h2>
+          <Span>2.</Span> Segunda Arte
+        </h2>
         <img src={image2} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>3. Terceira Arte</h2>
+        <h2>
+          <Span>3.</Span> Terceira Arte
+        </h2>
         <img src={image3} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>4. Quarta Arte</h2>
+        <h2>
+          <Span>4.</Span> Quarta Arte
+        </h2>
         <img src={image4} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>5. Quinta Arte</h2>
+        <h2>
+          <Span>5.</Span> Quinta Arte
+        </h2>
         <img src={image5} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>6. Sexta Arte</h2>
+        <h2>
+          <Span>6.</Span> Sexta Arte
+        </h2>
         <img src={image6} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>7. Sétima Arte</h2>
+        <h2>
+          <Span>7.</Span> Sétima Arte
+        </h2>
         <img src={image7} alt="" />
       </CardStyles>
     </MainStyles>
@@ -73,6 +87,8 @@ const CardStyles = styled.div`
   align-items: center;
   margin-bottom: 40px;
   img {
+    box-shadow: rgb(19, 18, 18) 0px 20px 30px -10px;
+
     width: 100%;
     height: auto;
   }

@@ -7,28 +7,33 @@ export function Prices() {
     <PricesDiv id="prices">
       <img src="" alt="" />
       <p>
-        Um dos treinamentos de marketing <Span>mais completos </Span>do brasil
-        com um conteúdo definitavamente transformador para seu negócio.
+        Todo esse conteúdo <Span> valiosíssimo</Span>, por apenas:
       </p>
 
-      <h3>POR APENAS:</h3>
       <PriceNumber>
-        <strong>
-          <span>R$</span> 200,00
-        </strong>
-        <span>INDIVIDUAL</span>
+        <Strong>
+          <span>R$</span> 250,00
+        </Strong>
+        <SpanPlan>INDIVIDUAL</SpanPlan>
       </PriceNumber>
       <PriceNumber>
         <strong>
-          <span>R$</span> 400,00
+          <span>R$</span> 450,00
         </strong>
         <span>DUPLA</span>
       </PriceNumber>
+      <Payment>PIX ou em até 12x no cartão</Payment>
       {/* <Button text={`Tô Dentro!  `} /> */}
       <ButtonForm />
     </PricesDiv>
   );
 }
+
+const Payment = styled.span`
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 800;
+`;
 
 const PricesDiv = styled.div`
   margin-top: 10px;
@@ -42,6 +47,9 @@ const PricesDiv = styled.div`
   h3 {
     margin: 10px 0;
   }
+  p {
+    font-weight: 800;
+  }
 `;
 
 const PriceNumber = styled.div`
@@ -50,6 +58,7 @@ const PriceNumber = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 16px;
+
   strong {
     font-size: 28px;
     color: #ff5d02;
@@ -58,4 +67,15 @@ const PriceNumber = styled.div`
   span {
     font-size: 16px;
   }
+`;
+
+const Strong = styled.strong`
+  font-size: 50px !important;
+  span {
+    font-size: 32px;
+  }
+`;
+
+const SpanPlan = styled.span`
+  font-size: 20px !important;
 `;
