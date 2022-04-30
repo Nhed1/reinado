@@ -7,9 +7,9 @@ import { Info } from "./components/Info/Info";
 import { Main } from "./components/Main/Main";
 import { Nav } from "./components/Nav/Nav";
 import { Prices } from "./components/Prices/Prices";
+import { WhatsappButton } from "./components/WhatsappButton";
 
 import { useWindowPosition } from "./hooks/useWindowPosition";
-
 function App() {
   let value = useWindowPosition();
   const showUp = value > 800;
@@ -24,6 +24,7 @@ function App() {
         <Main />
         <Prices />
       </Padding>
+      <WhatsappButton />
     </Wrapper>
   );
 }
