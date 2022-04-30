@@ -9,7 +9,6 @@ import { Nav } from "./components/Nav/Nav";
 import { Prices } from "./components/Prices/Prices";
 import { WhatsappButton } from "./components/WhatsappButton";
 import { Adress } from "./components/Adress/Adress";
-import { AnimatedBar } from "./components/AnimatedBar";
 
 import { useWindowPosition } from "./hooks/useWindowPosition";
 
@@ -25,7 +24,6 @@ function App() {
         <Header />
         <Info />
         <Main />
-        <AnimatedBar />
         <Adress />
         <Prices />
       </Padding>
