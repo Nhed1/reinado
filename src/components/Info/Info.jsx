@@ -35,6 +35,7 @@ const InfoDiv = styled.div`
   margin: 20px 0;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   color: #e1e1e6;
   font-weight: 600;
 `;

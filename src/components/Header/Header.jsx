@@ -17,8 +17,8 @@ export function Header() {
         <img src={logo2} alt="Logo" />
 
         <Details>
-          O mapa completo para você se destacar no Instagram e aumentar os
-          resultados do seu negócio
+          O treinamento completo para você aumentar os resultados do seu negócio
+          através do Marketing Digital
         </Details>
       </FlexColumn>
     </HeaderDiv>

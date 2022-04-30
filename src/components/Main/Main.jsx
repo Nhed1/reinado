@@ -13,35 +13,35 @@ export function Main() {
     <MainStyles>
       <h1>O QUE VOCÊ IRÁ APRENDER NO TREINAMENTO?</h1>
       <p>
-        As <Span> 7 artes</Span> para construir um Instragram
-        <Span> poderoso</Span>
+        As <Span> 7 etapas </Span>para dominar o digital e construir um
+        <Span> Instagram</Span> poderoso
       </p>
       <CardStyles>
-        <h2>Primeira Arte</h2>
+        <h2>1. Primeira Arte</h2>
         <img src={image1} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>Segunda Arte</h2>
+        <h2>2. Segunda Arte</h2>
         <img src={image2} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>Terceira Arte</h2>
+        <h2>3. Terceira Arte</h2>
         <img src={image3} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>Quarta Arte</h2>
+        <h2>4. Quarta Arte</h2>
         <img src={image4} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>Quinta Arte</h2>
+        <h2>5. Quinta Arte</h2>
         <img src={image5} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>Sexta Arte</h2>
+        <h2>6. Sexta Arte</h2>
         <img src={image6} alt="" />
       </CardStyles>
       <CardStyles>
-        <h2>Sétima Arte</h2>
+        <h2>7. Sétima Arte</h2>
         <img src={image7} alt="" />
       </CardStyles>
     </MainStyles>
