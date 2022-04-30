@@ -1,9 +1,19 @@
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 export function Button({ text }) {
   return (
     <ButtonStyle>
-      <a href="#">{(text && text) || "Quero Participar"}</a>
+      <Link
+        activeClass="active"
+        to="prices"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+      >
+        {(text && text) || "Quero Participar"}
+      </Link>
     </ButtonStyle>
   );
 }

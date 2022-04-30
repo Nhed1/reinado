@@ -4,7 +4,7 @@ import { Span } from "../Span";
 
 export function Prices() {
   return (
-    <PricesDiv>
+    <PricesDiv id="prices">
       <img src="" alt="" />
       <p>
         Um dos treinamentos de marketing <Span>mais completos </Span>do brasil
