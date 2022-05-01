@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 import { Button } from "../Button/Button";
 import { FlexColumn } from "../FlexColumn";
 
-export function Info() {
+export function Info({ reference, click }) {
   return (
     <IconContext.Provider value={{ color: "#ff5d02" }}>
       <InfoDiv>
@@ -25,7 +25,7 @@ export function Info() {
         </InfoIconAndText>
       </InfoDiv>
       <FlexColumn>
-        <Button />
+        <Button click={click} ref={reference} />
       </FlexColumn>
     </IconContext.Provider>
   );

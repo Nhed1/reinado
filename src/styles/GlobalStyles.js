@@ -1,8 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+*{
+    scroll-behavior: smooth;
+
+}
     body {
-    
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0; 
     font-family: 'Ruda', sans-serif;

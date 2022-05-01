@@ -2,12 +2,8 @@ import styled from "styled-components";
 // import { Link } from "react-scroll";
 // const ScrollLink = Scroll.ScrollLink;
 
-export function Button({ text }) {
-  return (
-    <ButtonStyle href="https://my.forms.app/form/626d52cdb838185b9353b194">
-      Quero Participar
-    </ButtonStyle>
-  );
+export function Button({ click }) {
+  return <ButtonStyle onClick={click}>Quero Participar</ButtonStyle>;
 }
 
 const ButtonStyle = styled.a`

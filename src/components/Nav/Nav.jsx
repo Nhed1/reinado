@@ -2,16 +2,12 @@ import styled from "styled-components";
 import logo2 from "../../assets/logo2.png";
 // import { Link } from "react-scroll";
 
-export function Nav({ showLimitedSpace }) {
+export function Nav({ showLimitedSpace, click }) {
   return (
     <NavDiv>
       <div>
         <img src={logo2} alt="logo" />
-        <ButtonLink>
-          <a href="https://my.forms.app/form/626d52cdb838185b9353b194">
-            Quero Participar
-          </a>
-        </ButtonLink>
+        <ButtonLink onClick={click}>Quero Participar</ButtonLink>
       </div>
       {showLimitedSpace && (
         <LimitedSpace>
@@ -42,7 +38,7 @@ const NavDiv = styled.div`
   }
 `;
 
-const ButtonLink = styled.div`
+const ButtonLink = styled.a`
   cursor: pointer;
 
   font-style: none;
@@ -56,12 +52,11 @@ const ButtonLink = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  a {
-    text-decoration: none;
-    color: #e1e1e6;
-    font-size: 14px;
-    font-weight: 600;
-  }
+
+  text-decoration: none;
+  color: #e1e1e6;
+  font-size: 14px;
+  font-weight: 600;
 `;
 
 const LimitedSpace = styled.div`

@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { AiFillCalendar } from "react-icons/ai";
 import { Span } from "../Span";
 
-export function Adress() {
+export function Adress({ reference }) {
   return (
-    <CardAdress>
+    <CardAdress ref={reference}>
       <Title>
         <AiFillCalendar size="24px" />
         <strong>
