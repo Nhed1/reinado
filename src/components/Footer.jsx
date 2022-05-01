@@ -10,13 +10,14 @@ export function Footer() {
 }
 
 const FooterDiv = styled.div`
-  width: 94%;
+  width: 100%;
 
   background-color: #212529;
   color: #e1e1e6;
 
   display: flex;
   align-items: center;
+  box-sizing: border-box;
   padding: 10px;
   p {
     text-align: center;

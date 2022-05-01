@@ -8,5 +8,13 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Ruda', sans-serif;
     box-sizing: border-box;
     }
-    
+
+    @media (min-width: 700px) {
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+        }
+
+  }
 `;

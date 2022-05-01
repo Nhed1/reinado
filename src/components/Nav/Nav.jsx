@@ -50,7 +50,8 @@ const ButtonLink = styled.div`
   width: 120px;
   height: 35px;
 
-  background-image: linear-gradient(to right, #daa520, #ff5d08);
+  background-color: #ff5d08;
+  background-image: linear-gradient(to right, #daa520, #ff5d08) !important;
 
   display: flex;
   justify-content: center;

@@ -18,8 +18,8 @@ const ButtonStyle = styled.a`
   border-radius: 10px;
   width: 180px;
   height: 50px;
-
-  background-image: linear-gradient(to right, #daa520, #ff5d08);
+  background-color: #ff5d08;
+  background-image: linear-gradient(to right, #daa520, #ff5d08) !important;
 
   display: flex;
   justify-content: center;

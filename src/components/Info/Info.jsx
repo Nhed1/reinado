@@ -16,12 +16,12 @@ export function Info() {
           <p>Chapadinha</p>
         </InfoIconAndText>
         <InfoIconAndText>
-          <BiTime size="30px" />
-          <p>A partir de 8h </p>
-        </InfoIconAndText>
-        <InfoIconAndText>
           <BsCalendar size="30px" />
           <p>22 de maio</p>
+        </InfoIconAndText>
+        <InfoIconAndText>
+          <BiTime size="30px" />
+          <p>A partir de 8h </p>
         </InfoIconAndText>
       </InfoDiv>
       <FlexColumn>
