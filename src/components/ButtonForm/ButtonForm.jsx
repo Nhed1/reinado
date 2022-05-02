@@ -2,15 +2,13 @@ import styled from "styled-components";
 
 export function ButtonForm() {
   return (
-    <ButtonStyle>
-      <a href="https://my.forms.app/form/626d52cdb838185b9353b194">
-        Tô Dentro!
-      </a>
+    <ButtonStyle href="https://my.forms.app/form/626d52cdb838185b9353b194">
+      Tô Dentro!
     </ButtonStyle>
   );
 }
 
-const ButtonStyle = styled.div`
+const ButtonStyle = styled.a`
   cursor: pointer;
   margin-top: 20px;
 
@@ -25,10 +23,9 @@ const ButtonStyle = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2px;
-  a {
-    text-decoration: none;
-    color: #e1e1e6;
-    font-size: 15px;
-    font-weight: 800;
-  }
+
+  text-decoration: none;
+  color: #e1e1e6;
+  font-size: 15px;
+  font-weight: 800;
 `;
