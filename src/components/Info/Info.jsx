@@ -17,7 +17,7 @@ export function Info({ reference, click }) {
         </InfoIconAndText>
         <InfoIconAndText>
           <BsCalendar size="30px" />
-          <p>22 de maio</p>
+          <p>28 de maio</p>
         </InfoIconAndText>
         <InfoIconAndText>
           <BiTime size="30px" />

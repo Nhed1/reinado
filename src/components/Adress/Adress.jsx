@@ -14,8 +14,8 @@ export function Adress({ reference }) {
       </Title>
       <div>
         <ul>
-          <li>22 de maio (Domingo)</li>
-          <li>8h às 12h e 14h às 20h</li>
+          <li>28 de maio (Sábado)</li>
+          <li>8h às 12h e 14h às 19h</li>
           <li>Coffee Break no final</li>
           <li>Local: Auditório Parnauto</li>
         </ul>

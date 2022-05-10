@@ -12,6 +12,7 @@ import { Adress } from "./components/Adress/Adress";
 import { ProfileCard } from "./components/ProfileCard/ProfileCard";
 import { FinalSentence } from "./components/FinalSentence/FinalSentence";
 import { Footer } from "./components/Footer";
+import Faq from "./components/Faq/Faq";
 
 import { useWindowPosition } from "./hooks/useWindowPosition";
 import { useRef } from "react";
@@ -40,6 +41,7 @@ function App() {
         <Adress reference={element2} />
         <Prices />
         <ProfileCard />
+        <Faq />
         <FinalSentence />
       </Padding>
       <Footer />

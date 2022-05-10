@@ -24,7 +24,7 @@ const SentenceDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 16px;
 
   color: #e1e1e6;
 
